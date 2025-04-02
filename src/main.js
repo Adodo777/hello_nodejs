@@ -15,6 +15,7 @@ app.use(errorMiddleware);
 app.use('/api/customers', require('./api/routes/customer.route'));
 app.use('/api/products', require('./api/routes/product.route'));
 app.use('/api/orders', require('./api/routes/order.route'));
+app.use('/api/auth', require('./api/routes/auth.route'));
 
 
 
